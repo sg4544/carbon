@@ -1,0 +1,14 @@
+{
+  "title": "Car Carbon Footprint",
+  "note": "You can enter details of your cars.",
+  "mileage": "Mileage:",
+  "efficiency": "Enter efficiency",
+  "vehicle": "Choose vehicle",
+  "miles": "Miles",
+  "km": "Kilometers",
+  "petrol": "petrol",
+  "diesel": "diesel",
+  "messageHeader": "Total Car Footprint",
+  "message": "metric tons of CO2e",
+  "add": "Add a new car"
+}

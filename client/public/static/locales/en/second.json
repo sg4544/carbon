@@ -1,0 +1,23 @@
+{
+  "title": "Secondary carbon footprint",
+  "note": "Please enter your amount of spend for each category below, and then press the Estimate button to estimate your secondary carbon footprint.",
+  "week": "Weekly",
+  "month": "Monthly",
+  "annual": "Annually",
+  "food": "Food and drink:",
+  "pharmacy:": "Pharmacy:",
+  "clothes": "Clothes and shoes:",
+  "paper": "Paper products:",
+  "computer": "Computer equipments:",
+  "tv": "TV and radio:",
+  "motor": "Motor vehicles:",
+  "furniture": "Furniture:",
+  "restaurants": "Restaurants, hotel, etc:",
+  "telephone": "Telephone, mobile:",
+  "banking": "Banking and finance:",
+  "insurance": "Insurance:",
+  "education": "Education:",
+  "recreational": "Recreational activities:",
+  "messageHeader": "Total Secondary transport Footprint",
+  "message": "metric tons of CO2e"
+}

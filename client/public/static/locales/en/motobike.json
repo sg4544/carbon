@@ -1,0 +1,14 @@
+{
+  "title": "Motorbike carbon footprint",
+  "note": "You can enter details of your motorbikes.",
+  "mileage": "Mileage:",
+  "efficiency": "Enter efficiency",
+  "type": "Select type",
+  "miles": "Miles",
+  "km": "Kilometers",
+  "petrol": "petrol",
+  "diesel": "diesel",
+  "messageHeader": "Total Motorbike Footprint",
+  "message": "metric tons of CO2e",
+  "add": "Add a new motobike"
+}

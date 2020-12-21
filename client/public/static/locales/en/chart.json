@@ -1,0 +1,14 @@
+{
+  "energy": "Energy",
+  "publicTransport": "Public Transport",
+  "secondary": "Secondary",
+  "car": "Car",
+  "motobike": "Motobike",
+  "flight": "Flight",
+  "comparison": "Comparision",
+  "footprint": "Your footprint",
+  "uk": "UK average",
+  "eu": "EU average",
+  "world": "World average",
+  "target": "World target"
+}

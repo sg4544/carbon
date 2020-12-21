@@ -1,0 +1,12 @@
+{
+  "title": "Personal Details",
+  "place": "Please tell us where you live:",
+  "placeTooltip": "Choosing your country allows you to compare your carbon footprint with the average person in your country.",
+  "country": "Country",
+  "household": "Number of people in your household:",
+  "householdTooltip": "This is needed for sharing out your gas, electricity and car use between the members of your household.",
+  "period": "Time period",
+  "periodTooltip": "Carbon footprint calculations are typically based on annual emissions from the previous 12 months.",
+  "from": "From",
+  "to": "To"
+}

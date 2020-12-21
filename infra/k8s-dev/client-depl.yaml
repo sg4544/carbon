@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: footprint-client-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: footprint-client
+  template:
+    metadata:
+      labels:
+        app: footprint-client
+    spec:
+      containers:
+        - name: footprint-client
+          image: satoshisadeghsalesi/footprint-client
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: footprint-client-srv
+spec:
+  selector:
+    app: footprint-client
+  type: ClusterIP
+  ports:
+    - name: footprint-client
+      protocol: TCP
+      port: 3000
+      targetPort: 3000

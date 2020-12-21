@@ -1,0 +1,26 @@
+{
+  "title": "footprint  Schema",
+  "properties": {
+    "country": {
+      "type": "string",
+      "maxLength": 150
+    },
+    "household": {
+      "type": "number",
+      "minimum": 1
+    },
+    "from": {
+      "type": "string"
+    },
+    "to": { "type": "string" },
+    "energy": { "type": "number", "minimum": 0 },
+    "flight": { "type": "number", "minimum": 0 },
+    "car": { "type": "number", "minimum": 0 },
+    "motobike": { "type": "number", "minimum": 0 },
+    "publicTransport": { "type": "number", "minimum": 0 },
+    "secondary": { "type": "number", "minimum": 0 }
+  },
+
+  "required": ["country", "household", "from", "to"],
+  "additionalProperties": false
+}

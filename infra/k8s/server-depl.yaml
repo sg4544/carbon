@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: footprint-server-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: footprint-server
+  template:
+    metadata:
+      labels:
+        app: footprint-server
+    spec:
+      containers:
+        - name: footprint-server
+          image: satoshisadeghsalesi/footprint-server
+          env:
+            - name: MONGO_URI
+              value: "mongodb://footprint-mongo-srv:27017/footprint"
+            - name: JWT_KEY
+              value: "fwag4ighw4gn4jgnkjgnkj4g4"
+            - name: GET_ADDRESS_API_KEY
+              value: "8e4-1MB5IEmJ5tiui1d5NQ28142"
+              # valueFrom:
+              #   secretKeyRef:
+              #     name: jwt-secret # the name of the secret we created
+              #     key: JWT_KEY # the key within the secret whose value we will assign to this env variable.
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: footprint-server-srv
+spec:
+  selector:
+    app: footprint-server
+  type: ClusterIP
+  ports:
+    - name: footprint-server
+      protocol: TCP
+      port: 3000
+      targetPort: 3000

@@ -1,0 +1,19 @@
+{
+  "title": "Flight Carbon Footprint",
+  "note": "You can enter details for your flight itineraries.",
+  "return": "Round trip",
+  "oneway": "One-way trip",
+  "distance": "Air distance",
+  "distanceTooltip": "to calculate air distance between the cities please refer to https://www.distance.to",
+  "unit": "Unit",
+  "class": "Class",
+  "miles": "Miles",
+  "km": "Kilometers",
+  "economy": "Economy class",
+  "first": "First class",
+  "business": "Business class",
+  "messageHeader": "Total Flight Footprint",
+  "message": "metric tons of CO2e",
+  "add": "Add new a flight",
+  "flight": "flight"
+}

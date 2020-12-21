@@ -1,0 +1,33 @@
+# Not using persistent volumes in dev mode
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: footprint-mongo-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: footprint-mongo
+  template:
+    metadata:
+      labels:
+        app: footprint-mongo
+    spec:
+      containers:
+        - name: footprint-mongo
+          image: mongo
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: footprint-mongo-srv
+spec:
+  selector:
+    app: footprint-mongo
+  type: ClusterIP
+  ports:
+    - name: auth-db
+      protocol: TCP
+      port: 27017
+      targetPort: 27017

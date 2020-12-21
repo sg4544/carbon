@@ -1,0 +1,23 @@
+{
+  "title": "二次碳足迹",
+  "note": "请在下面输入每个类别的支出金额，然后按估算按钮估算您的次级碳足迹.",
+  "week": "每周",
+  "month": "每月一次",
+  "annual": "每年",
+  "food": "饮食：",
+  "pharmacy:": "药店:",
+  "clothes": "衣服和鞋子:",
+  "paper": "纸制品:",
+  "computer": "电脑设备:",
+  "tv": "电视和广播:",
+  "motor": "机动车:",
+  "furniture": "家具类:",
+  "restaurants": "饭店，旅馆等:",
+  "telephone": "移动电话:",
+  "banking": "银行和金融:",
+  "insurance": "保险:",
+  "education": "教育:",
+  "recreational": "娱乐活动:",
+  "messageHeader": "二次运输总足迹",
+  "message": "公吨二氧化碳当量"
+}

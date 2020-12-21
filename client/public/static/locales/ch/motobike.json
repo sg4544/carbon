@@ -1,0 +1,14 @@
+{
+  "title": "摩托车碳足迹",
+  "note": "您可以输入摩托车的详细信息",
+  "mileage": "里程:",
+  "efficiency": "输入效率",
+  "type": "选择类型",
+  "miles": "迈尔斯",
+  "km": "公里数",
+  "petrol": "汽油",
+  "diesel": "柴油机",
+  "messageHeader": "摩托车总足迹",
+  "message": "公吨二氧化碳当量",
+  "add": "添加新的摩托车"
+}

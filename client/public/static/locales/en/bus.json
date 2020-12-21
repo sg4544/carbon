@@ -1,0 +1,15 @@
+{
+  "title": "Public transport carbon footprint",
+  "note": "Enter mileage for each type of public transport, and press the Calculate button.",
+  "bus": "Bus:",
+  "coach": "Coach:",
+  "localTrain": "Local train",
+  "longTrain": "Long distance train:",
+  "tram": "Tram:",
+  "subway": "Subway:",
+  "taxi": "Taxi:",
+  "miles": "Miles",
+  "km": "Kilometers",
+  "messageHeader": "Total Public transport Footprint",
+  "message": "metric tons of CO2e"
+}

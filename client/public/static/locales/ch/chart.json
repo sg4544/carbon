@@ -1,0 +1,14 @@
+{
+  "energy": "能源",
+  "publicTransport": "公共交通",
+  "secondary": "次要的",
+  "car": "汽车",
+  "motobike": "摩托车",
+  "flight": "飞行",
+  "comparison": "比较方式",
+  "footprint": "您的足迹",
+  "uk": "英国平均",
+  "eu": "欧盟平均值",
+  "world": "世界平均水平",
+  "target": "世界目标"
+}

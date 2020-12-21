@@ -1,0 +1,19 @@
+{
+  "title": "飞行碳足迹",
+  "note": "您可以输入航班行程的详细信息.",
+  "return": "往返",
+  "oneway": "单程旅行",
+  "distance": "空中距离",
+  "distanceTooltip": "要计算城市之间的空中距离，请访问https://www.distance.to",
+  "unit": "单位",
+  "class": "类",
+  "miles": "迈尔斯",
+  "km": "公里数",
+  "economy": "经济舱",
+  "first": "头等舱",
+  "business": "商务课程",
+  "messageHeader": "飞行总足迹",
+  "message": "公吨二氧化碳当量",
+  "add": "新增航班",
+  "flight": "飞行"
+}

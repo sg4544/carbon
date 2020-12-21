@@ -1,0 +1,16 @@
+{
+  "title": "Household Energy Footprint",
+  "note": "Enter your consumption of each type of energy, and press the Calculate button.",
+  "electricity": "Electricity",
+  "rate": "Rate",
+  "rateTooltip": "The electricity conversion factor is suggested for the country you have selected, but you can replace it with your own.",
+  "other": "Other Items",
+  "unit": "Unit",
+  "gas": "Natural gas",
+  "oil": "Heating oil",
+  "coal": "Coal",
+  "propane": "Propane",
+  "wood": "Wooden pellets",
+  "messageHeader": "Total Household Energy Footprint",
+  "message": "metric tons of CO2e"
+}
